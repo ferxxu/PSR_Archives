@@ -44,6 +44,7 @@ try:
                 print("Desconectando...")
                 client_socket.close()
                 break
+            
 
 except Exception as e:
     print(f"Error: {e}")
