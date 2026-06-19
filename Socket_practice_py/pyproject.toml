@@ -1,0 +1,16 @@
+[project]
+name = "socket-practice-py"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "ferxxu"}
+]
+requires-python = ">=3.15"
+dependencies = [
+    "sqlalchemy (>=2.0.51,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
